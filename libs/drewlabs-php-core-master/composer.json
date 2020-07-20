@@ -1,0 +1,23 @@
+{
+    "name": "drewlabs/core",
+    "description": "Basic provider classes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azandrew",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "sendgrid/sendgrid": "~7",
+        "aws/aws-sdk-php": "^3.142",
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Core": "./src"
+        }
+    }
+}

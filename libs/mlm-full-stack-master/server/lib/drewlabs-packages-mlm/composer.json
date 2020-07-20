@@ -1,0 +1,12 @@
+{
+    "name": "drewlabs/mlm",
+    "description": "MLM system package manager",
+    "type": "library",
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "asmyns.platonnas29@gmail.com"
+        }
+    ],
+    "require": {}
+}

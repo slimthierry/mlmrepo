@@ -1,0 +1,88 @@
+[
+    {
+        "label": "all",
+        "display_label": "ALL PRIVILEGES"
+    },
+    {
+        "label": "list-permissions",
+        "display_label": "LIST PERMISSIONS PRIVILEGE"
+    },
+    {
+        "label": "create-permissions",
+        "display_label": "CREATE PERMISSIONS PRIVILEGE"
+    },
+    {
+        "label": "update-permissions",
+        "display_label": "UPDATE PERMISSIONS PRIVILEGE"
+    },
+    {
+        "label": "delete-permissions",
+        "display_label": "DELETE PERMISSIONS PRIVILEGE"
+    },
+    {
+        "label": "list-roles",
+        "display_label": "LIST ROLES PRIVILEGE"
+    },
+    {
+        "label": "create-roles",
+        "display_label": "CREATE ROLES PRIVILEGE"
+    },
+    {
+        "label": "update-roles",
+        "display_label": "UPDATE ROLES PRIVILEGE"
+    },
+    {
+        "label": "delete-roles",
+        "display_label": "DELETE ROLES PRIVILEGE"
+    },
+    {
+        "label": "list-users",
+        "display_label": "LIST USERS PRIVILEGE"
+    },
+    {
+        "label": "create-users",
+        "display_label": "CREATE USERS PRIVILEGE"
+    },
+    {
+        "label": "update-users",
+        "display_label": "UPDATE USERS PRIVILEGE"
+    },
+    {
+        "label": "delete-users",
+        "display_label": "DELETE USERS PRIVILEGE"
+    },
+
+    {
+        "label": "list-departments",
+        "display_label": "AUTHORIZATION FOR LISTING DEPARTMENTS"
+    },
+    {
+        "label": "create-departments",
+        "display_label": "AUTHORIZATION FOR CREATING DEPARTMENTS"
+    },
+    {
+        "label": "update-departments",
+        "display_label": "AUTHORIZATION FOR UPDATING DEPARTMENTS"
+    },
+    {
+        "label": "delete-departments",
+        "display_label": "AUTHORIZATION FOR DELETING DEPARTMENTS"
+    },
+
+    {
+        "label": "list-organisations",
+        "display_label": "AUTHORIZATION FOR LISTING ORGANISATIONS"
+    },
+    {
+        "label": "create-organisations",
+        "display_label": "AUTHORIZATION FOR CREATING ORGANISATIONS"
+    },
+    {
+        "label": "update-organisations",
+        "display_label": "AUTHORIZATION FOR UPDATING ORGANISATIONS"
+    },
+    {
+        "label": "delete-organisations",
+        "display_label": "AUTHORIZATION FOR DELETING ORGANISATIONS"
+    }
+]

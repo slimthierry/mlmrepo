@@ -1,0 +1,24 @@
+{
+    "name": "drewlabs/data-uri",
+    "description": "Library representing text/plain and base64 encoded Data URIs",
+    "type": "library",
+    "require": {
+        "symfony/http-foundation": "^5.2@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.5.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "asmyns.platonnas29@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Core\\DataURI\\": "./"
+        }
+    },
+    "minimum-stability": "dev"
+}

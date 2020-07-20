@@ -1,0 +1,23 @@
+{
+    "name": "drewlabs/utils",
+    "description": "Utilities class providers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azandrew",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\Utils": ""
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}

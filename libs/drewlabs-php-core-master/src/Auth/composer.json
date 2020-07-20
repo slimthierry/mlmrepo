@@ -1,0 +1,22 @@
+{
+    "name": "drew-domain/libraries-auth",
+    "description": "Basic authentication libraries",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azandrew",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "drew/contracts": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\Services\\Auth": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "drew-domain/libraries-jwt",
+    "description": "OAuth 2.0 basic implementation with JSON Web Token",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Azandrew",
+        "email": "azandrewdevelopper@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "drew/contracts": "^1.0.0",
+        "tuupola/base62": "^0.10.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\Services\\Jwt": ""
+        }
+    }
+}

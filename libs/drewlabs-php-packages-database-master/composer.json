@@ -1,0 +1,20 @@
+{
+    "name": "drewlabs/database",
+    "description": "Provides functionnalities for accessing and working with databases using laravel Eloquent, or NoSQL Datatabase providers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "azandrew-sidoine",
+        "email": "asmyns.platonnas29@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Packages\\Database\\": "./"
+        },
+        "files": []
+    }
+}

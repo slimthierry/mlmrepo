@@ -1,0 +1,47 @@
+{
+    "name": "drewlabs/mlm-project",
+    "description": "MLM System management project implementations",
+    "type": "project",
+    "authors": [
+        {
+            "name": "azandrew-sidoine",
+            "email": "asmyns.platonnas29@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "aws/aws-sdk-php": "^3.142",
+        "guzzlehttp/guzzle": "^6.5",
+        "predis/predis": "^1.1",
+        "firebase/php-jwt": "^5.0",
+        "sendgrid/sendgrid": "~7",
+        "swiftmailer/swiftmailer": "^6.0",
+        "symfony/psr-http-message-bridge": "^v2.0.0",
+        "tuupola/base62": "^2.0.0",
+        "vlucas/phpdotenv": "^v4.1.3",
+        "illuminate/support": "7.20",
+        "laravel/helpers": "1.2.0",
+        "illuminate/database": "7.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Contracts\\": "lib/drewlabs-contracts/src",
+            "Drewlabs\\Core\\": "lib/drewlabs-core/src",
+            "Drewlabs\\Packages\\Http\\": "lib/drewlabs-lumen-http/src",
+            "Drewlabs\\Packages\\Identity\\": "lib/drewlabs-identity/src",
+            "Drewlabs\\Packages\\PassportPHPLeagueOAuth\\": "lib/drewlabs-laravel-passport-wrapper/src",
+            "Drewlabs\\Packages\\Database\\": "lib/drewlabs-database/src",
+            "Drewlabs\\Utils\\": "lib/drewlabs-utils/src",
+            "Drewlabs\\Packages\\MLM\\": "lib/drewlabs-packages-mlm/src"
+        },
+        "files": [
+            "lib/drewlabs-utils/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.9.1",
+        "mockery/mockery": "^1.3.1",
+        "phpunit/phpunit": "^8.5"
+    }
+}

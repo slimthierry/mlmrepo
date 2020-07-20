@@ -1,0 +1,24 @@
+[submodule "server/lib/drewlabs-contracts"]
+	path = server/lib/drewlabs-contracts
+	url = git@github.com:azandrew-sidoine/drewlabs-php-contracts.git
+[submodule "server/lib/drewlabs-core"]
+	path = server/lib/drewlabs-core
+	url = git@github.com:azandrew-sidoine/drewlabs-php-core.git
+[submodule "server/lib/drewlabs-database"]
+	path = server/lib/drewlabs-database
+	url = git@github.com:azandrew-sidoine/drewlabs-php-packages-database.git
+[submodule "drewlabs-lumen-http"]
+	path = drewlabs-lumen-http
+	url = git@github.com:azandrew-sidoine/drewlabs-php-packages-lumen-http.git
+[submodule "server/lib/drewlabs-lumen-http"]
+	path = server/lib/drewlabs-lumen-http
+	url = git@github.com:azandrew-sidoine/drewlabs-php-packages-lumen-http.git
+[submodule "server/lib/drewlabs-identity"]
+	path = server/lib/drewlabs-identity
+	url = git@github.com:azandrew-sidoine/drewlabs-php-packages-identity.git
+[submodule "server/lib/drewlabs-laravel-passport-wrapper"]
+	path = server/lib/drewlabs-laravel-passport-wrapper
+	url = git@github.com:azandrew-sidoine/drewlabs-php-laravel-passport-wrapper.git
+[submodule "server/lib/drewlabs-utils"]
+	path = server/lib/drewlabs-utils
+	url = git@github.com:azandrew-sidoine/drewlabs-php-utils.git

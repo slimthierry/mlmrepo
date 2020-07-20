@@ -1,0 +1,21 @@
+{
+    "name": "drew-domain/libraries-hasher",
+    "description": "Simple hashing component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azandrew",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "drew/contracts": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\Services\\Hasher": ""
+        }
+    }
+}

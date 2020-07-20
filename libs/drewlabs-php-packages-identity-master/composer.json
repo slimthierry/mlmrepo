@@ -1,0 +1,18 @@
+{
+    "name": "drewlabs/identity",
+    "description": "Provides class and method definitions for working with Authentication and Authorizations in laravel projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "azandrew-sidoine",
+        "email": "asmyns.platonnas29@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Packages\\Identity\\": "./"
+        },
+        "files": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "drewlabs/dompdf",
+    "description": "Simple Wrapper around php dompdf/dompdf library",
+    "type": "library",
+    "require": {
+        "dompdf/dompdf": "^0.8.3",
+        "symfony/http-foundation": "^4.3.4"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}

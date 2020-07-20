@@ -1,0 +1,18 @@
+{
+    "name": "drewlabs/http",
+    "description": "Simple HTTP packages definitions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "azandrew-sidoine",
+        "email": "asmyns.platonnas29@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Packages\\Http\\": "./"
+        },
+        "files": []
+    }
+}
